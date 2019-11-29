@@ -106,6 +106,7 @@
     static float k = 0.0;
     k += 0.1;
 //    glScalef(2, 2, 2);
+    glTranslatef(1, 1, 0);
     glRotatef(30 * sinf(k), 0, 1, 0);
 
 	//Typically see: glTranslatef(), glRotatef(), glScalef()
